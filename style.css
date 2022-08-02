@@ -11,9 +11,9 @@
 .color{
     border: 1px solid black;
     margin-top: 10%;
-    width: 40%;
+    width: 5rem;
     height: 5rem;
-    margin-left: 5%;
+    margin-left: 5% ;
 }
 .c1 {
     
@@ -28,4 +28,20 @@ background-color: blue;
 }
 .c4 {
 background-color: darkmagenta;
+}
+#pixel-board {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+  
+}
+.pixel {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border: 1px solid black;
 }
