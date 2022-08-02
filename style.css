@@ -1,0 +1,31 @@
+#title{
+    text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  width: 35%;
+  margin: auto;
+} 
+
+.color{
+    border: 1px solid black;
+    margin-top: 10%;
+    width: 40%;
+    height: 5rem;
+    margin-left: 5%;
+}
+.c1 {
+    
+background-color:red
+   }
+
+.c2 {
+background-color: blue;
+    }
+.c3 {
+ background-color: green;,
+}
+.c4 {
+background-color: darkmagenta;
+}
