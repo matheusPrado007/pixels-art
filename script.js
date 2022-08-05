@@ -17,15 +17,41 @@ window.onload = function(){
   selectedRemove.classList.remove('selected');
 
   colorSelect.classList.add('selected');
+ console.log(colorPalette);
+  }); 
+  const pixelColor = document.querySelector('#pixel-board');
+   pixelColor.addEventListener('click', function selectedPixel(event2) {
  
-  });
-  }
+   const pixelClick = event2.target;
+   const colors = getComputedStyle(document.querySelector('#color-palette .selected '));
+
+   const backColor = colors.backgroundColor;
+
+	pixelClick.style.backgroundColor = backColor;
+
+    
+  console.log(pixelColor);
+ });
+   }
+
+  
+
+  
+    
+ 
+
+  
+   
+ 
+  
   
 
 
+ 
 
-
-
+  
+   
+   
 
 
 
