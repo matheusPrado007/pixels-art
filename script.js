@@ -1,9 +1,4 @@
-/*function c1Color () {
-   const section1 = document.querySelector('.selected')
-   section1.style.backgroundColor = 'black';
-} */
 
-//
 
 
 window.onload = function(){
@@ -32,7 +27,25 @@ window.onload = function(){
     
   console.log(pixelColor);
  });
-   }
+const button = document.querySelector('#clear-board');
+button.addEventListener('click', function buttonClick (event3) {
+ const click = event3.target;
+ const whitePalette = document.querySelectorAll('.pixel')
+for (let index = 0; index < whitePalette.length; index++) {
+   const element = whitePalette[index];
+   if (click){
+      element.style.backgroundColor = 'white';
+ }
+ }
+})
+} 
+
+
+ 
+
+
+
+   
 
   
 
